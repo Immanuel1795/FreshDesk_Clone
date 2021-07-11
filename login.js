@@ -20,7 +20,7 @@ async function login() {
     } else {
       window.localStorage.setItem("domain", domain);
       window.localStorage.setItem("api_key", apikey);
-      window.location.href = `./freshdesk.html.html`;
+      window.location.href = `./freshdesk.html`;
     }
   }
   
