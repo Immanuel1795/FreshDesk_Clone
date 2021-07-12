@@ -219,7 +219,7 @@ async function getContact() {
         </div>
         <div class="form-group">
           <label for="phone">Phone</label>
-          <input type="text" class="form-control" id="phone" value="${phone}">
+          <input type="text" class="form-control" id="phone" value="${phone}" type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Format: 123-456-7890">
         </div>
         <button type="submit" class="btn btn-primary detail-submit">Submit</button>
       </form>
