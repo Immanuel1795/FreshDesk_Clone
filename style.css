@@ -82,8 +82,14 @@ input,
     
   }
 
-  .categories select{
+  .categories select, .categories button{
       margin: 5px;
+      width: 100%;
+  }
+
+  .select-sp select{
+     margin: 0px;
+     padding: 5px;
   }
 
   .contacts-container{
@@ -100,6 +106,17 @@ input,
       margin-top: 5px;
   }
 
+  .btn-delete{
+      background-color: white;
+      border-radius: 5px;
+  }
+
+
+  .logout-btn{
+     position: absolute;
+     left: 90%;
+  }
+
   
 
 
@@ -112,7 +129,7 @@ input,
 @media (min-width: 250px) and (max-width: 767px) {
     
 
-    .categories select{
+    .categories select, .categories button{
         width: 100%;
         margin: 5px;
         padding: 5px;
@@ -154,7 +171,7 @@ input::placeholder {
 
 
 
-.categories select{
+.categories select, .categories button{
     width: 100%;
     margin: 5px;
     padding: 5px;
@@ -197,7 +214,7 @@ p{
 
     
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
     
 .text-img{
     width: 80px;
@@ -207,6 +224,11 @@ p{
     
 
 }
+
+.logout-btn{
+    position: static;
+    
+ }
 }
 
 @media (max-width: 767px) {
